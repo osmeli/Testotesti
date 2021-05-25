@@ -5,6 +5,7 @@ import { StyleSheet, Text, View, Image, TextInput, Button} from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
+      <Image source={require("./assets/logo.png")} />
       <Text>What clubs do I Suck With?</Text>
       <StatusBar style="auto" />
     </View>
@@ -16,6 +17,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    marginTop: 25
   },
 });
